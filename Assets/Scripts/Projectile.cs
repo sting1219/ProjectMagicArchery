@@ -11,7 +11,7 @@ public class Projectile : MonoBehaviour
     private bool isInitialized = false;
 
     private GameObject damageTextPrefab;
-    private float damage = 10f; // 기본 데미지 설정
+    private float damage = 50f; // 기본 데미지 설정
 
     public void Setup(Vector3 start, Vector3 target, GameObject textPrefab)
     {
@@ -67,12 +67,10 @@ public class Projectile : MonoBehaviour
 
     private void OnTargetHit()
     {
-        // 1. 돈 벌기 연동
-        GameManager.Instance.AddGold(damage);
 
         // 2. 타겟 컴포넌트를 찾아와서 데미지 입히기 (★ 추가된 부분)
         // Launcher가 쏘아 올린 TargetPoint 오브젝트에서 Target 스크립트를 가져옵니다.
-        Target target = FindObjectOfType<ProjectileLauncher>().targetPoint.GetComponent<Target>();
+        Target target = FindAnyObjectByType<ProjectileLauncher>().targetPoint.GetComponent<Target>();
         if (target != null)
         {
             target.TakeDamage(damage);

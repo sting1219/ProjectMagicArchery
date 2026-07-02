@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 48
+  controlID: 110
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 36
+  controlID: 37
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 37
+  controlID: 38
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 38
+  controlID: 39
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -322,8 +322,8 @@ MonoBehaviour:
     y: 0
     width: 1452
     height: 802
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -710,13 +710,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 67}
     m_SelectedIDs:
-    - m_rawData: 568105584918861120
+    - m_rawData: 568105584918842502
     m_LastClickedID:
-      m_rawData: 568105584918861120
+      m_rawData: 568105584918842502
     m_ExpandedIDs:
-    - m_rawData: 568105589213696216
+    - m_rawData: 568105589213755492
     - m_rawData: 0
-    - m_rawData: 568105584918851360
+    - m_rawData: 568105584918842410
     - m_rawData: 568105587066273791
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -749,7 +749,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_rawData: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_rawData: 0
+    - m_rawData: 568105584918842410
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -778,9 +780,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_rawData: 568105584918861192
+    - m_rawData: 568105584918842066
     m_LastClickedEntityId:
-      m_rawData: 568105584918861192
+      m_rawData: 568105584918842066
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -911,14 +913,12 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_rawData: 568105584918861192
+      - m_rawData: 568105584918842066
       m_LastClickedID:
-        m_rawData: 0
+        m_rawData: 568105584918842066
       m_ExpandedIDs:
-      - m_rawData: 568105589213639340
-      - m_rawData: 568105589213669582
-      - m_rawData: 568105589213669994
-      - m_rawData: 568105589213696766
+      - m_rawData: 568105589213756042
+      - m_rawData: 568105584918842088
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
